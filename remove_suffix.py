@@ -13,6 +13,3 @@ def remove_suffix(word, suffix):
 	else:
 		# Simply return the base
 		return base
-
-print(remove_suffix('happiness', 'ness'))
-print(remove_suffix('smartness', 'ness'))
