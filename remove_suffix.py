@@ -1,4 +1,4 @@
-def remove_suffix(word, suffix):
+def remove_suffix(suffix, word):
 	# Get out base of the world without the suffix
 	base = word.removesuffix(suffix)
 	# Get last character of base

@@ -7,5 +7,5 @@ print('add_prefix: ', add_prefix('auto', 'gram'))
 print('add_prefix: ', add_prefix('auto', ['gram', 'motive', 'matic']))
 
 # Remove suffix
-print('remove_suffix: ', remove_suffix('happiness', 'ness'))
-print('remove_suffix: ', remove_suffix('smartness', 'ness'))
+print('remove_suffix: ', remove_suffix('ness', 'happiness'))
+print('remove_suffix: ', remove_suffix('ness', 'smartness'))
