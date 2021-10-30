@@ -1,9 +1,10 @@
+from concat_string import concat_string
 
 def add_prefix(prefix, target):
   # Check if word is a list
   if not isinstance(target, list):
     # Concatenate prefix and target
-    return f'{prefix}{target}'
+    return concat_string(prefix, target)
 
   # Create list to return
   return_list = []
@@ -11,7 +12,7 @@ def add_prefix(prefix, target):
   # Iterate over target 
   for item in target:
     # Concatenate prefix and target's item
-    return_list.append(f'{prefix}{item}')
+    return_list.append(concat_string(prefix, item))
 
   # Return list
   return return_list
