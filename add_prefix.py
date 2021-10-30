@@ -16,6 +16,3 @@ def add_prefix(prefix, target):
 
   # Return list
   return return_list
-
-print(add_prefix('auto', 'gram'))
-print(add_prefix('auto', ['gram', 'motive', 'matic']))
